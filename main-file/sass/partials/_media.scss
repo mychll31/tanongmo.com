@@ -1,0 +1,15 @@
+.media{
+    display: flex;
+    .icon-element{
+        flex-shrink: 0;
+    }
+    &-body {
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+.notification-content-wrap{
+    .media{
+        justify-content: space-between;
+    }
+}

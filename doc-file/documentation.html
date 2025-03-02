@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation for Disilab -  Social Questions and Answers HTML Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.highlight.css"/>
+    <link rel="stylesheet" href="css/doc.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Page Wrapper-->
+<div class="page-wrapper">
+    <div id="sidebar">
+        <!--Menu Box-->
+        <div class="menu-box">
+            <!--Logo-->
+            <div class="logo text-center py-4">
+                <a href="http://techydevs.com">
+                    <img src="img/logo-white.png" alt="logo">
+                </a>
+            </div>
+            <!--Sticky Menu-->
+            <nav class="menu">
+                <ul>
+                    <li class="active"><a href="#introduction" class="page-scroll">Overview</a></li>
+                    <li><a href="#gulp-installation" class="page-scroll">Gulp Installation</a></li>
+                    <li><a href="#ftp-install" class="page-scroll">Installation</a></li>
+                    <li><a href="#html-structure" class="page-scroll">HTML Structure</a></li>
+                    <li><a href="#css-structure" class="page-scroll">CSS Files Structure</a></li>
+                    <li><a href="#general-setting" class="page-scroll">General setting</a></li>
+                    <li><a href="#javascript" class="page-scroll">Javascript</a></li>
+                    <li><a href="#tutorial" class="page-scroll">Tutorial</a></li>
+                    <li><a href="#support" class="page-scroll">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="copyright">Copyright &copy; <a href="http://techydevs.com">TechyDevs</a> <span id="yearSpan"></span></div>
+    </div><!-- end sidebar -->
+    <div id="content-section">
+        <!--Introduction Section-->
+        <section class="section introduction" id="introduction">
+            <div class="sec-content">
+                <h2>Disilab</h2>
+                <h3>- Social Questions and Answers HTML Template</h3>
+                <div class="separator"></div>
+                <strong class="text-black">By:</strong> <a href="http://techydevs.com">TechyDevs</a><br>
+                <strong class="text-black">Email:</strong> <a href="mailto:contact@techydevs.com">contact@techydevs.com</a>
+                <p class="pt-3">Thank you for purchasing <strong class="text-black">Disilab</strong>- Social Questions and Answers HTML Template If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form or put a ticket at Support Center. Thank you so much!</p>
+                <p>We continue to add new things to make our template more beautiful and strong every day. You will be free to use all our updates.</p>
+                <h3 class="content-title">Template Features</h3>
+                <ul class="checkbox padding-top-10px">
+                    <li>3 Home Pages</li>
+                    <li>44+ inner pages</li>
+                    <li>Question details page</li>
+                    <li>Flexible user setting page</li>
+                    <li>Beautiful user detail page</li>
+                    <li>RTL Fully Supported</li>
+                    <li>Upvote or Downvote question and answer</li>
+                    <li>Clean & Modern Design</li>
+                    <li>Bootstrap 5 </li>
+                    <li>Owl-carousel Slider</li>
+                    <li>SASS (SCSS)</li>
+                    <li>HTML Validate
+                        <a href="https://validator.w3.org/check?uri=referer">
+                            <img src="https://www.w3.org/Icons/valid-html401"
+                                 alt="Valid HTML" style="border:0;width:88px;height:31px" />
+                        </a>
+                    </li>
+                    <li>CSS3 Validate
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                 src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                 alt="Valid CSS!" />
+                        </a>
+                    </li>
+                    <li>Beautiful Popup modal for login, sign-up and recover password</li>
+                    <li>Fully Responsive Design </li>
+                    <li>All files are well commented </li>
+                    <li>Crossbrowser Compatible with IE10+, Firefox, Safari, Opera, Chrome </li>
+                    <li>Extensive Documentation</li>
+                    <li>And more.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section html-structure" id="gulp-installation">
+            <div class="sec-title mb-4"><h2>Gulp Start</h2></div>
+            <div class="sec-content">
+                <h3>Follow the steps below:</h3>
+                <ol class="gulp-list mb-3">
+                    <li>Download the latest template source from ThemeForest.</li>
+                    <li>Extract Disilab downloaded zip file. Extracted zip file will have 2 folders.</li>
+                    <li><strong>Disilab</strong> =&gt; main source files</li>
+                    <li><strong>Documentation</strong> =&gt; guide lines</li>
+                    <li>We'll start of the process by installing Gulp onto your computer. Gulp requires you to have Node.js and Node Package Manager (NPM) installed on your system, so if you haven’t gotten them yet, <br>then go to <a href="https://nodejs.org/en/download/">Node.js’s</a>website and download the installer.</li>
+                    <li>Once you’re done installing Node.js and NPM, you can install Gulp by typing the following command in the command line:</li>
+                    <li>Start with command prompt if you use windows or start with terminal if you use mac:</li>
+                </ol>
+                <ol class="gulp-list-code">
+                    <li>sudo npm install gulp-cli -g</li>
+                    <li><strong># Note: Windows users do not require the `sudo` keyword</strong></li>
+                    <li>cd / your Disilab folder directory</li>
+                    <li>npm install gulp --save-dev</li>
+                    <li><strong># Note: don't use sudo keyword mac users and windows users now</strong></li>
+                    <li> Now your gulp will be installed after run this command  [npm install gulp --save-dev]</li>
+                    <li>Now go to your main file joby file. and You will also see a new folder > node_modules <br>that was created when you ran the npm install gulp --save-dev command.</li>
+                </ol>
+                <div class="sec-title margin-top-50px mb-4"><h2>SASS install</h2></div>
+                <ol class="gulp-list-code">
+                    <li>sudo npm install -g sass</li>
+                    <li><strong># Note: Windows users do not require the `sudo` keyword</strong></li>
+                    <li>
+                        // go to the project root in the terminal using the CD command. <br>
+                        // in the root of your project directory run the following commands. <br>
+                    </li>
+                    <li>
+                        A. To compile sass use the following command  [gulp style] <br>
+                        B. To watch for changes in SASS file and to compile automatically use the following <br>
+                        command  &gt; [gulp watch], and  to stop watching files, <br>
+                        use CTRL + C on Windows or Command + C on Mac OS
+                    </li>
+                </ol>
+                <ul class="gulp-list-link">
+                    <li>More clarification how to install sass and use go to
+                        <a href="https://sass-lang.com/documentation/file.SASS_REFERENCE.html">
+                            sass's website
+                        </a>
+                    </li>
+                    <li>If you have any confusion then feel free to <a href="https://techydevs.com/support/">contact us</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section html-structure" id="ftp-install">
+            <div class="sec-title mb-4"><h2>Installation</h2></div>
+            <div class="sec-content">
+                <h3>Follow the steps below to setup your site template:</h3>
+                <ol class="gulp-list">
+                    <li><h3>FTP Upload:</h3></li>
+                    <li>Unzip the downloaded package and open the Disilab/main-file folder to find all the template files. You will need to upload these files to your hosting web server using FTP in order to use it on your own website.</li>
+                    <li>You need to upload all files inside the Disilab/main-file folder to your website root.</li>
+                    <li><strong>Disilab/css</strong> css files</li>
+                    <li><strong>Disilab/fonts</strong> Icon, fonts files</li>
+                    <li><strong>Disilab/images</strong> images files</li>
+                    <li><strong>Disilab/js</strong> Javascript files</li>
+                    <li><strong>Disilab/php</strong> PHP files</li>
+                    <li><strong>Disilab/sass</strong> scss files</li>
+                    <li>You are now good... Start adding your content/images generate your beautiful brand new website for your awesome users.</li>
+                </ol>
+            </div>
+        </section><!-- end template ftp -->
+        <!--HTML Structure-->
+        <section class="section html-structure" id="html-structure">
+            <div class="sec-title mb-4"><h2>HTML Structure</h2></div>
+            <div class="sec-content">
+                <h3>The html template uses <strong>Bootstrap v4</strong> with valid HTML5 tags. This template is a responsive layout with 4 column Support column. All of the information in content area is nested within a class and comes with predefined classes.</h3>
+                <h3 class="content-title">HTML Structure</h3><!-- /.content-title -->
+                <p>Now, here's a look at a typical HTML file:</p>
+<pre class="prettyprint linenums margin-bottom-20px">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Template&lt;/title&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;section&gt;
+        &lt;h1&gt;Hello, world!&lt;/h1&gt;
+        &lt;p&gt;I am a paragraph&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;script src="js/jquery.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                <p>To make this <strong class="text-black">a Bootstrapped template</strong>, just include the appropriate CSS and JS files:</p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Template&lt;/title&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;!-- Bootstrap --&gt;
+    &lt;link href="css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;section&gt;
+      &lt;div class="container"&gt;
+          &lt;div class="row"&gt;
+            &lt;div class="col-lg-8"&gt;
+                &lt;h1&gt;Hello, world!&lt;/h1&gt;
+                &lt;p&gt;I am a paragraph&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-lg-4"&gt;
+                &lt;h1&gt;Hello, world!&lt;/h1&gt;
+                &lt;p&gt;I am a paragraph&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+       &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;script src="https:js/jquery.js"&gt;&lt;/script&gt;
+    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                <p><strong class="text-black">And you're set!</strong> With those two files added, you can begin to develop any site or application with Bootstrap.</p>
+
+                <h3 class="content-title">Basic Grid HTML</h3>
+                <p>For a simple two column layout, create a .container and add the appropriate number of .col-lg* columns. </p>
+                <p>Given this example, we have .col-lg-4 and .col-lg-8, making for 12 total columns and a complete row.</p>
+                <pre class="code" data-language="html">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">...</div>
+        <div class="col-lg-8">...</div>
+    </div>
+</div>
+                </pre>
+                <h3 class="content-title">Nesting Columns</h3><!-- /.content-title -->
+                <p>To nest your content with the default grid, add a new .container and set of .col-lg* columns within an existing .col-lg* column. Nested rows should include a set of columns that add up to the number of columns of its parent.</p>
+                <pre class="code" data-language="html">
+<div class="container">
+    <div class="col-lg-9">
+        Level 1 column
+        <div class="row">
+            <div class="col-lg-8">Level 2</div>
+            <div class="col-lg-4">Level 2</div>
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        Level 2 column
+    </div>
+</div>
+</pre><!-- /.code -->
+            </div>
+        </section>
+        <!--CSS Structure-->
+        <section class="section css-structure" id="css-structure">
+            <div class="sec-title mb-4"><h2>CSS Files Structure</h2></div>
+            <div class="sec-content">
+                <h3>There are two main files are in this template. The first one <code>bootstrap.min.css</code>, second one is <code>style.css</code> which for this template </h3>
+                <p>If you would like to edit a specific section of the site, then go to <code>sass</code> folder and open specific scss file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+                <p><strong class="text-black">Note:</strong> If you don't know SASS then you can edit <code>style.css</code> file</p>
+                <p>This is an example of how to include CSS files into the templates on top of the document.</p>
+<pre class="code" data-language="css">
+ <!-- inject:css -->
+&lt;link href="css/main.css" rel="stylesheet"&gt;
+ <!-- end inject -->
+</pre><!-- /.code -->
+
+                <h3 class="content-title">Font</h3>
+                <p>Disilab template used 1 font from <a href="https://fonts.google.com/">google fonts</a> library or you can change the font from google fonts library</p>
+                <p>This is an example of how to include font link into the templates on top of the document.</p>
+                <pre class="code" data-language="css">
+&lt;link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"&gt;
+                </pre><!-- /.code -->
+            </div>
+        </section>
+        <!--CSS Structure-->
+        <section class="section" id="general-setting">
+            <div class="sec-title mb-4"><h2>General setting</h2></div>
+            <div class="sec-content">
+                <h3>To change the logo, title, favicon image of your site. you go to top of the documentation</h3>
+                <h3 class="content-title mb-4">Title</h3>
+                <figure class="image-box"><img src="img/titleimg.jpg" alt="Title image" class="rounded"></figure>
+                <h3 class="content-title mb-4">Favicon</h3>
+                <figure class="image-box"><img src="img/favimg.jpg" alt="Favicon image" class="rounded"></figure>
+                <h3 class="content-title mb-4">Logo</h3>
+                <figure class="image-box"><img src="img/logo-img.jpg" alt="Logo image" class="rounded"></figure>
+                <h3 class="content-title mb-1">Leaflet Map</h3>
+                <p>To change the map address go to <code>js</code> folder then you will see a js file named in <code>map.js</code></p>
+                <figure class="image-box"><img src="img/map-img.jpg" alt="Map image" class="rounded"></figure>
+                <h3 class="content-title padding-bottom-10px">Ajax Contact form</h3>
+                <p>To change the email address go to => <code>php</code> folder then you will see a php file named in <code>contact.php</code></p>
+                <figure class="image-box"><img src="img/email-validate.jpg" alt="Email validate image" class="rounded"></figure>
+            </div>
+        </section>
+        <!--Javascript-->
+        <section class="section javascript" id="javascript">
+            <div class="sec-title mb-4"><h2>Javascript</h2></div>
+            <div class="sec-content">
+                <h3>This template imports three types of Javascript files.</h3>
+                <ul class="pb-4">
+                    <li>jQuery</li>
+                    <li>Custom scripts <strong class="text-black">(main.js)</strong></li>
+                    <li class="pb-4">Some plugins</li>
+                    <li><strong class="text-black">jQuery</strong> is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                    <li>Most of the animation in this site is carried out from the customs scripts. There are a few functions worth looking over.</li>
+                </ul>
+                <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method</p>
+                <p>This is an example of how to include the js file into templates at end of the Body Section.</p>
+                <pre class="code" data-language="html">
+ <!-- template js files -->
+&lt;script src="js/main.js"&gt;&lt;/script&gt;
+                </pre><!-- /.code -->
+            </div>
+        </section>
+        <!--Sources and Credits-->
+        <section class="section tutorial" id="tutorial">
+            <div class="sec-title mb-4"><h2>Tutorial</h2></div>
+            <h3 class="content-title mb-4">Setting (RTL) right-to-left page</h3><!-- /.content-title -->
+            <div class="sec-content">
+                <h3 class="pb-2">Base direction</h3>
+                <p>Before we start, we need to introduce an important concept.</p>
+                <p>In order for text to look right when an HTML page is displayed, we need to establish the directional context of that text.</p>
+                <p>In HTML the base direction is either set explicitly by the nearest parent element that uses the <code>dir</code> attribute, or, in the absence of such an attribute, the base direction is inherited from the default direction of the document, which is left-to-right (LTR).</p>
+                <h3 class="py-3">Setting up a right-to-left page</h3>
+                <p>Add <code>dir="rtl"</code> to the html tag any time the overall document direction is right-to-left. This sets the base direction for the whole document.</p>
+                <p><strong class="text-black">Note:</strong> No dir attribute is needed for documents that have a base direction of left-to-right, since this is the default.</p>
+                <blockquote class="example">
+                    <div>&lt;!DOCTYPE html&gt;<br>
+                    &lt;html <code>dir="rtl"</code> <code>lang="ar"</code>&gt;<br>
+                    &lt;head&gt;<br>
+                    &lt;meta charset="utf-8"&gt;<br>
+                    ... </div>
+                </blockquote>
+                <p>Adding <code>dir="rtl"</code> to the html element will cause block elements and table columns to start on the right and flow from right to left. All block elements in the document will inherit this setting unless the direction is explicitly overridden.</p>
+                <h3 class="pb-3">Language tags.</h3>
+                <p>While you are declaring the directionality of the document in the <code>html</code> tag, don't forget to declare the language of the document using the <code>lang="ar"</code> attributes</p>
+                <p>The illustration below shows what content looks like before (left) and after (right) the <code>dir</code> attribute is added to the <code>html</code> tag.</p>
+                <img src="img/html-dir-results.gif" alt="RLT image" class="w-auto">
+                <h3 class="pb-3">Quick start</h3>
+                <p>Add <code>bootstrap-rtl.min.css</code> to your document's top and remove <code>main.js</code> file and add <code>main-rtl.js</code> to your document's bottom that page you want to RTL right-to-left page</p>
+                <p>You are now good... your page will be RTL right to left</p>
+            </div>
+        </section>
+        <!--Support-->
+        <section class="section" id="support">
+            <div class="sec-title mb-4"><h2>Support</h2></div>
+            <div class="sec-content">
+                <p>Once again, thank you so much for purchasing this template.
+                    We are happy that you are one of our customers. If you come up with any template related questions
+                    that are beyond the scope of this help file, please feel free to
+                    <a href="https://techydevs.com/support/">contact us</a> <br>
+                    We will respond as soon as possible, usually faster. We are open from 10am to 7pm (GMT), from Saturday till Sunday.</p>
+                <div class="d-flex flex-wrap align-items-center">
+                    <p class="me-4">Email Us at: <a href="mailto:contact@techydevs.com">contact@techydevs.com</a></p>
+                    <p>Visit website <a href="https://techydevs.com">Techydevs.com</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<!--End pagewrapper-->
+
+<!-- start back to top -->
+<div id="back-to-top" title="Return to top">
+    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14l-6-6z"/></svg>
+</div>
+<!-- end back to top -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.highlight.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
