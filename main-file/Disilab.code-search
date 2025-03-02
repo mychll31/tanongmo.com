@@ -1,0 +1,761 @@
+# Query: Disilab
+# ContextLines: 1
+
+205 results - 54 files
+
+doc-file/documentation.html:
+    4      <meta charset="utf-8">
+    5:     <title>Documentation for TanongmoPH -  Social Questions and Answers HTML Template</title>
+    6      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   49              <div class="sec-content">
+   50:                 <h2>TanongmoPH</h2>
+   51                  <h3>- Social Questions and Answers HTML Template</h3>
+
+   54                  <strong class="text-black">Email:</strong> <a href="mailto:contact@techydevs.com">contact@techydevs.com</a>
+   55:                 <p class="pt-3">Thank you for purchasing <strong class="text-black">TanongmoPH</strong>- Social Questions and Answers HTML Template If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form or put a ticket at Support Center. Thank you so much!</p>
+   56                  <p>We continue to add new things to make our template more beautiful and strong every day. You will be free to use all our updates.</p>
+
+   97                      <li>Download the latest template source from ThemeForest.</li>
+   98:                     <li>Extract TanongmoPH downloaded zip file. Extracted zip file will have 2 folders.</li>
+   99:                     <li><strong>TanongmoPH</strong> =&gt; main source files</li>
+  100                      <li><strong>Documentation</strong> =&gt; guide lines</li>
+
+  107                      <li><strong># Note: Windows users do not require the `sudo` keyword</strong></li>
+  108:                     <li>cd / your TanongmoPH folder directory</li>
+  109                      <li>npm install gulp --save-dev</li>
+
+  144                      <li><h3>FTP Upload:</h3></li>
+  145:                     <li>Unzip the downloaded package and open the TanongmoPH/main-file folder to find all the template files. You will need to upload these files to your hosting web server using FTP in order to use it on your own website.</li>
+  146:                     <li>You need to upload all files inside the TanongmoPH/main-file folder to your website root.</li>
+  147:                     <li><strong>TanongmoPH/css</strong> css files</li>
+  148:                     <li><strong>TanongmoPH/fonts</strong> Icon, fonts files</li>
+  149:                     <li><strong>TanongmoPH/images</strong> images files</li>
+  150:                     <li><strong>TanongmoPH/js</strong> Javascript files</li>
+  151:                     <li><strong>TanongmoPH/php</strong> PHP files</li>
+  152:                     <li><strong>TanongmoPH/sass</strong> scss files</li>
+  153                      <li>You are now good... Start adding your content/images generate your beautiful brand new website for your awesome users.</li>
+
+  256                  <h3 class="content-title">Font</h3>
+  257:                 <p>TanongmoPH template used 1 font from <a href="https://fonts.google.com/">google fonts</a> library or you can change the font from google fonts library</p>
+  258                  <p>This is an example of how to include font link into the templates on top of the document.</p>
+
+main-file/about.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  216                      <p class="lh-26 pb-3">Our public platform <strong class="fw-medium text-black">serves 100 million people every month</strong>, making it one of the 50 most popular websites in the world.</p>
+  217:                     <p class="lh-26">Our asynchronous knowledge management and collaboration offering <strong class="fw-medium text-black">TanongmoPH for Teams</strong>, is transforming how people work.</p>
+  218                  </div><!-- end hero-content -->
+
+  315                          <svg class="mb-3" fill="none" height="55" viewBox="0 0 259 391" width="80" xmlns="http://www.w3.org/2000/svg"><path d="m237.649 87.7771h-216.291c-5.6595.0158-11.0827 2.2614-15.08459 6.2461-4.00191 3.9847-6.2572159 9.3848-6.27316586 15.0198v171.477c0 11.716 7.71700586 26.963 17.14665586 33.932l95.2031 70.324c9.437 6.968 24.85 6.968 34.307 0l95.203-70.324c9.403-6.969 17.14-22.242 17.14-33.932v-171.477c-.016-5.634-2.27-11.033-6.271-15.0174-4-3.9845-9.421-6.2309-15.08-6.2485z" fill="#fff"/><path d="m182.911 317.354-53.414 30.02-53.408-30.02z" fill="#27aae1"/><g fill="#231f20"><path d="m237.649 102.944c1.624.002 3.181.645 4.329 1.788 1.149 1.144 1.795 2.694 1.796 4.311v171.477c0 6.881-5.453 17.655-11.001 21.747l-95.196 70.331c-1.874 1.385-4.97 2.241-8.06 2.241-3.089 0-6.199-.856-8.059-2.241l-95.2642-70.331c-5.5544-4.092-10.9946-14.866-10.9946-21.747v-171.477c.0018-1.618.6486-3.17 1.7984-4.313 1.1498-1.144 2.7084-1.786 4.3336-1.786zm0-4.0124h-216.291c-2.6998.0017-5.2886 1.0704-7.1977 2.9714s-2.9824 4.478-2.9842 7.167v171.45c0 8.199 6.0447 20.109 12.6267 24.997l95.2032 70.311c2.579 1.9 6.501 3.036 10.491 3.036 3.989 0 7.925-1.136 10.491-3.036l95.203-70.311c6.595-4.888 12.64-16.798 12.64-24.997v-171.477c-.003-2.688-1.077-5.264-2.986-7.165-1.909-1.9004-4.496-2.9697-7.196-2.9732z"/><path d="m48.8612 141.102c.2104-1.502.4164-3.007.6179-4.514.2821-2.046-.6716-3.029-2.841-2.929l-1.1686.054c-2.1291.093-3.3582 1.237-3.6403 3.41-.4074 3.009-.8193 6.019-1.2358 9.028-.1343 1.01 0 1.658.3493 1.946.5833.409 1.2093.755 1.8671 1.03 2.2388.838 4.4775 1.625 6.7163 2.361 1.0703.357 2.1177.779 3.1365 1.263.5679.289 1.0358.741 1.3433 1.298.2888.548.3224 1.678.0873 3.404l-1.397 10.398c-.7254 5.464-4.3051 9.149-10.6319 11.463-1.6074.584-3.2081 1.183-4.8021 1.798-6.226 2.461-8.8051.321-7.8514-6.807.1276-.963.262-1.926.3896-2.889 2.5432-.847 5.0999-1.661 7.67-2.441-.1411.983-.2754 2.006-.4097 2.956-.2888 2.126.7119 2.782 3.0357 2.006l1.3433-.455c.9217-.238 1.7492-.749 2.3728-1.465.6237-.717 1.0141-1.605 1.1197-2.547.4029-2.916.8037-5.832 1.2022-8.747.1276-.95 0-1.545-.3694-1.792-.608-.335-1.2439-.617-1.9007-.843-2.2567-.669-4.4865-1.451-6.7163-2.254-1.1069-.32-2.1662-.786-3.1499-1.384-.6413-.479-1.0681-1.19-1.1888-1.979-.1966-1.181-.1966-2.385 0-3.565l1.5917-11.79c.8955-6.633 4.3052-9.924 10.2289-9.87h4.641c5.9237.04 8.5118 2.826 7.764 8.359l-.6716 4.755c-2.4895.232-4.9902.479-7.5021.742z"/><path d="m75.5785 132.515c-1.5313 12.733-3.0648 25.464-4.6006 38.192-2.6865.622-5.373 1.297-8.0596 2.006 1.7105-13.312 3.4209-26.629 5.1313-39.95-2.391.08-4.7887.167-7.1797.261.2552-1.926.5171-3.846.7723-5.771h21.6601c-.1881 1.685-.3762 3.377-.5575 5.062-2.3776.062-4.7663.129-7.1663.2z"/><path d="m87.5805 127.253h14.5475c5.664 0 8.389 2.146 8.174 6.439-.161 3.09-.32 6.177-.477 9.262-.168 3.284-1.827 5.411-4.997 6.487 1.495 5.163 3.063 10.272 4.701 15.328-2.588.196-5.176.432-7.764.708-1.437-4.955-2.8138-9.964-4.1168-15.059-1.585.124-3.1678.26-4.7484.407-.4791 5.324-.9537 10.647-1.4239 15.97-2.7133.401-5.4245.847-8.1334 1.337 1.4194-13.624 2.8321-27.251 4.238-40.879zm5.7357 19.058c1.7015-.124 3.4007-.245 5.0977-.361 2.3301-.147 3.5601-1.136 3.6871-2.989l.584-8.279c.13-1.854-.926-2.764-3.1697-2.728l-4.9297.087z"/><path d="m123.311 164.086c-2.731.058-5.467.163-8.207.315l1.108-30.762c.161-4.253 3.201-6.375 9.121-6.366h5.568c5.923 0 8.955 2.115 9.093 6.346l.947 30.702c-2.731-.125-5.469-.21-8.214-.255-.04-4.493-.082-8.985-.127-13.475-3.029 0-6.045 0-9.081 0-.067 4.499-.136 8.997-.208 13.495zm9.248-17.975-.12-12.245c0-1.437-1.122-2.16-3.312-2.16h-2.014c-2.194 0-3.303.723-3.325 2.167l-.208 12.258c2.995-.031 5.989-.038 8.979-.02z"/><path d="m158.578 131.954c.896 11.368 1.791 22.737 2.687 34.105-2.722-.347-5.449-.651-8.181-.909-.671-11.101-1.343-22.202-2.014-33.303l-7.214-.107c-.067-1.503-.13-3.007-.188-4.514h21.66c.152 1.609.302 3.221.45 4.835z"/><path d="m193.718 127.253 4.997 37.917c.786 5.965-2.015 7.924-8.496 6.279-2.239-.553-4.505-1.079-6.797-1.578-6.461-1.418-9.974-4.514-10.491-9.683-1.115-10.972-2.234-21.95-3.358-32.935h7.428c1.312 11.462 2.619 22.924 3.922 34.386.209 1.846 1.478 2.976 3.809 3.444l3.237.669c2.162.468 3.116-.254 2.874-2.207l-4.553-36.292z"/><path d="m216.936 141.884c-.215-1.591-.436-3.183-.672-4.774-.299-2.18-1.538-3.322-3.714-3.424l-1.168-.054c-2.129-.093-3.049.89-2.767 2.936l1.168 8.546c.044.755.362 1.468.894 2.007.47.394 1.215.923 2.236 1.611 2.566 1.565 5.131 3.21 7.697 4.936 1.263.853 2.478 1.775 3.64 2.761.708.628 1.311 1.364 1.787 2.181.613 1.348.988 2.791 1.108 4.266.551 4.093 1.104 8.185 1.659 12.278.873 6.54-1.773 8.373-8.06 5.892-1.598-.616-3.199-1.213-4.802-1.793-6.273-2.293-9.859-6.226-10.652-12.177-.114-.816-.222-1.632-.336-2.448 2.606.642 5.201 1.311 7.784 2.006l.383 2.796c.269 2.006 1.572 3.343 3.896 4.126l1.377.455c2.048.668 2.921 0 2.632-2.14l-1.269-9.249c-.054-.813-.375-1.587-.913-2.2-.716-.656-1.47-1.27-2.257-1.839-2.593-1.81-5.181-3.536-7.764-5.176-1.288-.758-2.532-1.586-3.728-2.481-.757-.588-1.376-1.335-1.813-2.187-.476-.997-.78-2.066-.9-3.163l-1.343-9.991c-.744-5.528 1.844-8.315 7.764-8.359h4.641c5.923-.045 9.333 3.245 10.229 9.87.25 1.873.503 3.745.758 5.618-2.502-.281-5.001-.558-7.495-.83z"/><path d="m52.9111 293.099h-8.0595c1.7686-15.907 3.5372-31.818 5.3058-47.734.7455-6.648 3.9291-8.64 9.6715-6.414 1.8067.669 3.6133 1.338 5.4334 1.946 5.8029 2.007 8.5364 5.604 8.0999 11.235l-3.2037 40.967h-8.0595c.5821-6.313 1.1507-12.619 1.7059-18.919-2.9686-.334-5.9305-.697-8.8856-1.09zm11.458-25.211c.5059-5.738 1.0141-11.476 1.5246-17.214.1746-2.006-.8127-3.343-2.9552-4.012l-2.0149-.615c-2.1358-.669-3.3044 0-3.5193 2.16l-1.8336 18.209c2.9328.535 5.8656 1.026 8.7984 1.472z"/><path d="m119.073 251.122c-2.968 13.863-6.112 27.793-9.403 41.977h-8.731c-1.343-8.39-2.6169-16.912-3.8213-25.566-1.9343 8.386-3.9268 16.908-5.9775 25.566h-8.7312c-2.0149-15.515-3.7813-31.645-5.3059-48.577 2.4403.664 4.885 1.28 7.3342 1.846 1.0209 12.077 2.1403 23.845 3.3582 35.302 2.4984-11.301 4.8984-22.358 7.1998-33.169 1.9522.334 3.9089.64 5.8697.916 1.344 11.146 2.783 22.113 4.319 32.902 2.207-10.7 4.33-21.264 6.367-31.691 2.516.214 5.024.379 7.522.494z"/><path d="m129.927 293.099h-8.06c.094-11.56.193-23.123.296-34.687.047-4.795 3.089-7.022 9.141-7.109 1.898-.027 3.794-.085 5.688-.174 6.045-.308 9.128 1.772 9.262 6.687.3 11.77.607 23.538.92 35.303h-8.059c-.072-5.131-.148-10.258-.229-15.381-3.009.063-6.018.096-9.026.1zm8.906-20.497c-.068-4.659-.137-9.324-.209-13.996 0-1.639-1.155-2.401-3.358-2.328l-2.062.054c-2.23.053-3.358.869-3.358 2.501 0 4.637.011 9.271.034 13.903 2.964-.013 5.948-.058 8.953-.134z"/><path d="m152.762 249.758c4.925-.628 9.824-1.449 14.695-2.461 5.689-1.217 8.698.722 9.087 6.219.269 3.928.54 7.854.813 11.777.289 4.18-1.054 7.002-4.07 8.359 2.239 6.322 4.518 12.804 6.837 19.447h-7.63c-2.135-6.242-4.22-12.336-6.252-18.283-1.572.113-3.15.227-4.702.327.278 5.988.558 11.973.84 17.956h-8.06c-.519-14.445-1.039-28.892-1.558-43.341zm8.523 20.31c1.693-.141 3.392-.295 5.084-.462 2.317-.22 3.405-1.464 3.278-3.684l-.585-9.938c-.127-2.227-1.343-3.123-3.573-2.735-1.647.281-3.299.542-4.956.782.251 5.346.501 10.691.752 16.037z"/><path d="m185.987 293.099c-1.289-16.495-2.576-32.975-3.861-49.44 4.262-1.23 8.491-2.614 12.687-4.152 6.756-2.562 10.47-.408 11.31 7.061 1.419 12.729 2.834 25.459 4.245 38.192.631 5.604-2.279 8.384-8.732 8.339zm7.489-6.266 5.964-.227c2.096-.081 3.063-.943 2.902-2.568-1.174-11.685-2.351-23.366-3.533-35.042-.269-2.675-1.491-3.598-3.674-2.902-1.706.541-3.419 1.056-5.131 1.558 1.155 13.062 2.312 26.123 3.472 39.181z"/></g><path d="m31.869 209.721h44.22" stroke="#27aae1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.2"/><path d="m259 102.944c0-15.5886-19.477-33.9988-38.168-35.5838-1.836-10.1147-7.058-19.3121-14.817-26.0923-7.758-6.7802-17.595-10.7433-27.906-11.2432-.026-2.0672-.627-4.0868-1.735-5.8354-1.108-1.7485-2.68-3.1579-4.542-4.0722s-3.942-1.298-6.01-1.1085c-2.067.1895-4.042.9447-5.706 2.1821-5.748-7.214-13.195-12.90491-21.68-16.5686-8.485-3.6637-17.747-5.187054-26.965-4.435108-9.218.751947-18.107 3.755978-25.8802 8.745968-7.7732 4.98994-14.1903 11.81184-18.6829 19.86134-4.7092-1.5868-9.7226-2.0704-14.6502-1.4132-4.9275.6572-9.6364 2.4374-13.7602 5.2022s-7.5515 6.4396-10.0163 10.7385-3.9003 9.1061-4.1949 14.0475c-7.4102 4.2771-13.557 10.4238-17.82081 17.8204-4.26378 7.3966-6.4937841 15.7817-6.46521899 24.31v181.0203c0 11.716 7.71700899 26.963 17.14662899 33.931l95.2031 70.325c9.437 6.968 24.85 6.968 34.307 0l95.203-70.325c9.403-6.968 17.14-22.242 17.14-33.931zm-6.716 177.576c0 9.536-6.75 22.884-14.44 28.568l-95.183 70.331c-3.358 2.481-8.16 3.906-13.157 3.906s-9.793-1.425-13.151-3.906l-95.2099-70.331c-7.7103-5.684-14.42655-19.032-14.42655-28.568v-171.477c.00532-3.866 1.54919-7.573 4.29345-10.3078 2.7443-2.735 6.4653-4.2756 10.348-4.2845h216.264c3.886.0036 7.611 1.5421 10.359 4.2778 2.748 2.7355 4.293 6.4455 4.296 10.3145z" fill="#27aae1"/><path d="m180.749 209.721h44.22" stroke="#27aae1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7.2"/><path d="m85.2097 215.064c3.5059-2.608 11.4177-6.687 11.4177-11.368 0-1.144-.4903-2.956-3.4589-2.956-1.0696.007-2.1261.235-3.1029.669.1245.294.1863.61.1813.929 0 .714-.2848 1.399-.7917 1.903-.507.505-1.1946.789-1.9116.789-.7169 0-1.4045-.284-1.9115-.789-.507-.504-.7918-1.189-.7918-1.903 0-3.002 4.0768-5.35 8.9528-5.35 4.2985 0 7.8849 1.813 7.8849 6.226 0 4.721-4.117 8.025-9.2617 11.034h9.9737v4.233h-16.381z" fill="#231f20"/><path d="m105.647 207.976c0-5.919 2.922-10.994 10.075-10.994s10.074 5.075 10.074 10.994c0 5.918-2.921 10.987-10.074 10.987s-10.075-5.049-10.075-10.987zm15.025 0c0-4.374-1.464-7.196-4.917-7.196-3.452 0-4.936 2.849-4.936 7.196 0 4.346 1.464 7.188 4.923 7.188s4.93-2.795 4.93-7.188z" fill="#231f20"/><path d="m129.255 215.064c3.499-2.608 11.418-6.687 11.418-11.368 0-1.144-.484-2.956-3.452-2.956-1.07.006-2.127.234-3.103.669.119.295.178.611.174.929 0 .714-.285 1.399-.792 1.903-.507.505-1.194.789-1.911.789s-1.405-.284-1.912-.789c-.507-.504-.791-1.189-.791-1.903 0-3.002 4.076-5.35 8.952-5.35 4.299 0 7.892 1.813 7.892 6.226 0 4.721-4.124 8.025-9.268 11.034h9.973v4.233h-16.387z" fill="#231f20"/><path d="m149.686 207.976c0-5.919 2.928-10.994 10.074-10.994 7.147 0 10.075 5.075 10.075 10.994 0 5.918-2.922 10.987-10.075 10.987-7.152 0-10.074-5.049-10.074-10.987zm15.024 0c0-4.374-1.457-7.196-4.916-7.196s-4.923 2.822-4.923 7.196c0 4.373 1.464 7.188 4.923 7.188s4.916-2.795 4.916-7.188z" fill="#231f20"/></svg>
+  316:                         <p class="lh-24">TanongmoPH for Teams won the <span class="fw-medium">2020 Stratus Award for Cloud Collaboration</span></p>
+  317                      </a>
+
+  321                  <div class="award-content text-center">
+  322:                     <p class="section-desc pb-3">Founded in 2009, TanongmoPH’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers. Our products and tools help developers and technologists in life and at work. These products include
+  323:                         <a href="#" class="text-color hover-underline">TanongmoPH for Teams</a>, <a href="#" class="text-color hover-underline">TanongmoPH Advertising</a>, and TanongmoPH for
+  324                          <a href="#" class="text-color hover-underline">Talent</a> and <a href="#" class="text-color hover-underline">Jobs</a>.</p>
+  325:                     <p class="section-desc pb-3">TanongmoPH for Teams, our core SaaS collaboration product, is helping thousands of companies around the world as the transition to remote work, address business continuity challenges, and undergo digital transformation.</p>
+  326:                     <p class="section-desc pb-3">Whether it’s on TanongmoPH or within TanongmoPH for Teams, community is at the center of all that we do.</p>
+  327                  </div>
+
+  344                      <br> the world’s knowledge.</h2>
+  345:                 <p class="section-desc pb-3">TanongmoPH mission is to share and grow the world’s knowledge. A vast amount of the knowledge that would be valuable to many people is currently only available to a few — either locked in people’s heads, or only accessible to select groups.</p>
+  346                  <p class="section-desc pb-3">We want to connect the people who have knowledge to the people who need it, to bring together people with different perspectives so they can understand each other better, and to empower everyone to share their knowledge for the benefit of the rest of the world.</p>
+
+  593                              <p>
+  594:                                 TanongmoPH Inc.<br>
+  595                                  110 Colin Street<br>
+
+  694                      <div class="info-body">
+  695:                         <h3 class="fs-18 pb-4 fw-bold">Check out our FAQ about how TanongmoPH works</h3>
+  696                          <a href="faq.html" class="btn theme-btn theme-btn-sm">Get help <i class="la la-arrow-right icon ms-1"></i></a>
+
+  716                      <div class="info-body">
+  717:                         <h3 class="fs-18 pb-4 fw-bold">Looking for help with TanongmoPH for Teams?</h3>
+  718                          <a href="faq.html" class="btn theme-btn theme-btn-sm">Team help <i class="la la-arrow-right icon ms-1"></i></a>
+
+  846                      <p class="create-account-text text-end fs-14 pt-1">
+  847:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  848                      </p>
+
+  906                      <p class="create-account-text text-end fs-14">
+  907:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  908                      </p>
+
+main-file/add-post.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/advertising.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  215                      <h2 class="section-title fs-40 pb-3 lh-55">Reach 100 million+ people in tech</h2>
+  216:                     <p class="section-desc pb-40px">Get the word out to the world’s largest audience of developers and technologists. Advertise with TanongmoPH.</p>
+  217                      <a class="media media-card align-items-center hover-s d-inline-flex" href="https://www.youtube.com/watch?v=GlrxcuEDyF8" data-fancybox="">
+
+  321                      <div class="about-content py-5">
+  322:                         <h2 class="section-title pb-3">Developers love TanongmoPH</h2>
+  323:                         <p class="section-desc pb-40px">When developers have a coding problem, they head to TanongmoPH. Because they know they’ll find a solution.</p>
+  324                          <div class="media media-card p-0 shadow-none rounded-0 bg-transparent align-items-center border-bottom border-bottom-gray pb-30px">
+
+  328                              <div class="media-body">
+  329:                                 <p class="lh-22 text-black">of developers visit TanongmoPH every day</p>
+  330                              </div>
+
+  336                              <div class="media-body">
+  337:                                 <p class="lh-22 text-black">of developers visit TanongmoPH at least once a week</p>
+  338                              </div>
+
+  352                          <h2 class="section-title pb-3">Trusted for over 10 years</h2>
+  353:                         <p class="section-desc pb-40px">We’ve been a home for the tech community since 2008. Developers and tech workers trust us. So when they see an ad on TanongmoPH, they pay attention.</p>
+  354                          <hr class="border-top-gray">
+  355:                         <p class="section-desc pt-4 fs-15 lh-20">Seeing an ad on TanongmoPH influences developers to search out more information on their own. On average, 83% of conversions from advertising on TanongmoPH happen without a click.</p>
+  356                      </div><!-- end about-content -->
+
+  365                  <h2 class="section-title pb-2">Find out if we’re a match</h2>
+  366:                 <p class="section-desc pb-4">Find out if your target audience spends time on TanongmoPH.</p>
+  367:                 <a href="contact.html" class="btn theme-btn">Advertise on TanongmoPH</a>
+  368              </div><!-- end about-content -->
+
+  515                      <p class="create-account-text text-end fs-14 pt-1">
+  516:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  517                      </p>
+
+  575                      <p class="create-account-text text-end fs-14">
+  576:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  577                      </p>
+
+main-file/ask-question.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  470          <div class="text-center">
+  471:             <h2 class="section-title">TanongmoPH Q&A communities are different. <br> Here's how</h2>
+  472          </div>
+
+main-file/badges-list.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  379                                                          </span>
+  380:                             <p class="fs-13 lh-18 pt-2 text-black-50">Completed the annual TanongmoPH survey; your responses are anonymous</p>
+  381                          </div>
+
+main-file/blog-grid-no-sidebar.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/blog-left-sidebar.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/blog-right-sidebar.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/blog-single.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/career-details.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  581                      <p class="create-account-text text-end fs-14 pt-1">
+  582:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  583                      </p>
+
+  641                      <p class="create-account-text text-end fs-14">
+  642:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  643                      </p>
+
+main-file/careers.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  237                      <h3 class="fs-19 fw-medium pb-3">Careers</h3>
+  238:                     <h2 class="section-title fs-40 pb-3 lh-55">Start your career with <span class="text-color">TanongmoPH</span></h2>
+  239:                     <p class="section-desc pb-4">Join us! Let’s build the next big thing together. At TanongmoPH, you’ll work with talented, like-minded individuals, inspired to change people’s lives by making things work on a global level.</p>
+  240                      <a href="#jobs" class="btn theme-btn page-scroll">Explore open jobs <i class="la la-arrow-down ms-1"></i></a>
+
+  329                  <div class="text-center">
+  330:                     <h2 class="section-title pb-3">How we work at TanongmoPH</h2>
+  331:                     <p class="section-desc w-75 mx-auto">Only by cohesively working together can we continue to make it happen, make it easy, and make it right. We do our best to consistently make TanongmoPH the best place where our team members have ever worked… because we work here too!</p>
+  332                  </div>
+
+  452                                  spoken every day <br>
+  453:                                 at TanongmoPH.
+  454                              </p>
+
+  469  <section class="gallery-area pb-120px">
+  470:     <h2 class="section-title fs-40 pb-60px text-center">Inside of TanongmoPH</h2>
+  471      <div class="gallery-carousel owl-carousel owl-theme owl-action-styled">
+
+  502              <h2 class="section-title pb-3">Perks & Benefits</h2>
+  503:             <p class="section-desc w-75 mx-auto">We do our best to make TanongmoPH an upside-heavy place of work. Because keeping good people happy is not only the right thing to do, it’s good business, too.</p>
+  504          </div>
+
+  890                      <p class="create-account-text text-end fs-14 pt-1">
+  891:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  892                      </p>
+
+  950                      <p class="create-account-text text-end fs-14">
+  951:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  952                      </p>
+
+main-file/cart.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  427                      <p class="create-account-text text-end fs-14 pt-1">
+  428:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  429                      </p>
+
+  487                      <p class="create-account-text text-end fs-14">
+  488:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  489                      </p>
+
+main-file/category-list.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/category.html:
+     8  
+     9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+    10  
+
+  1257          <div class="text-center">
+  1258:             <h2 class="section-title">TanongmoPH Q&A communities are different. <br> Here's how</h2>
+  1259          </div>
+
+  1412                      <p class="create-account-text text-end fs-14 pt-1">
+  1413:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  1414                      </p>
+
+  1472                      <p class="create-account-text text-end fs-14">
+  1473:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  1474                      </p>
+
+main-file/checkout.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  777                      <p class="create-account-text text-end fs-14 pt-1">
+  778:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  779                      </p>
+
+  837                      <p class="create-account-text text-end fs-14">
+  838:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  839                      </p>
+
+main-file/companies.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  684          <div class="text-center">
+  685:             <h2 class="section-title">TanongmoPH Q&A communities are different. <br> Here's how</h2>
+  686          </div>
+
+  839                      <p class="create-account-text text-end fs-14 pt-1">
+  840:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  841                      </p>
+
+  899                      <p class="create-account-text text-end fs-14">
+  900:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  901                      </p>
+
+main-file/company-details.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  682                      <p class="create-account-text text-end fs-14 pt-1">
+  683:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  684                      </p>
+
+  742                      <p class="create-account-text text-end fs-14">
+  743:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  744                      </p>
+
+main-file/contact.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  411                      <p class="create-account-text text-end fs-14 pt-1">
+  412:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  413                      </p>
+
+  471                      <p class="create-account-text text-end fs-14">
+  472:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  473                      </p>
+
+main-file/error-2.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  349                      <p class="create-account-text text-end fs-14 pt-1">
+  350:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  351                      </p>
+
+  409                      <p class="create-account-text text-end fs-14">
+  410:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  411                      </p>
+
+main-file/error.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  342                      <p class="create-account-text text-end fs-14 pt-1">
+  343:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  344                      </p>
+
+  402                      <p class="create-account-text text-end fs-14">
+  403:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  404                      </p>
+
+main-file/faq.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  495                      <p class="create-account-text text-end fs-14 pt-1">
+  496:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  497                      </p>
+
+  555                      <p class="create-account-text text-end fs-14">
+  556:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  557                      </p>
+
+main-file/free-demo.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  489                      <p class="create-account-text text-end fs-14 pt-1">
+  490:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  491                      </p>
+
+  549                      <p class="create-account-text text-end fs-14">
+  550:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  551                      </p>
+
+main-file/home-2.html:
+     8  
+     9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+    10  
+
+  2203                                                          </span>
+  2204:                                                         <p class="fs-13 lh-18 pt-2 text-black-50">Completed the annual TanongmoPH survey; your responses are anonymous</p>
+  2205                                                      </div>
+
+  2884          <div class="text-center">
+  2885:             <h2 class="section-title">TanongmoPH Q&A communities are different. <br> Here's how</h2>
+  2886          </div>
+
+  3039                      <p class="create-account-text text-end fs-14 pt-1">
+  3040:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  3041                      </p>
+
+  3099                      <p class="create-account-text text-end fs-14">
+  3100:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  3101                      </p>
+
+main-file/home-3.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  992              <div class="media-body flex-inherit">
+  993:                 <h2 class="section-title pb-3 theme-font-2">TanongmoPH for your Teams</h2>
+  994                  <p class="section-desc pb-4">– Collaborate and share knowledge with a private group.</p>
+
+main-file/index.html:
+     8  
+     9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+    10  
+
+   353          <div class="client-logo-box">
+   354:             <h3 class="fs-21 text-center text-gray">Thousands of organizations around the globe use TanongmoPH for Teams</h3>
+   355              <div class="row justify-content-center text-center pt-50px">
+
+   400              <h2 class="section-title pb-3">For developers, by developers</h2>
+   401:             <p class="section-desc w-50 mx-auto">TanongmoPH is an open community for anyone that codes. We help you get answers
+   402                  to your toughest coding questions, share knowledge with your coworkers in private,
+
+   841          <div class="text-center">
+   842:             <h2 class="section-title pb-3">Unlock siloed knowledge with <br> TanongmoPH for Teams</h2>
+   843              <p class="section-desc w-50 mx-auto pb-4">This is just a simple text made for this unique and awesome template,
+
+   865                              <li><i class="la la-check text-success"></i> ChatOps integrations - Slack & Microsoft Teams</li>
+   866:                             <li><i class="la la-check text-success"></i> Your own private space hosted on TanongmoPH.com</li>
+   867                              <li><i class="la la-check text-success"></i> Fully searchable archive</li>
+
+  1042                          <p class="pb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+  1043:                         <a href="talent.html" class="btn theme-btn">TanongmoPH Talent <i class="la la-arrow-right icon ms-1"></i></a>
+  1044                      </div>
+
+  1144                          <p class="pb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+  1145:                         <a href="advertising.html" class="btn theme-btn">TanongmoPH Advertising <i class="la la-arrow-right icon ms-1"></i></a>
+  1146                      </div>
+
+  1163          <div class="text-center">
+  1164:             <h2 class="section-title">Learn and grow with TanongmoPH</h2>
+  1165          </div>
+
+  1397                      <p class="create-account-text text-end fs-14 pt-1">
+  1398:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  1399                      </p>
+
+  1457                      <p class="create-account-text text-end fs-14">
+  1458:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  1459                      </p>
+
+main-file/job-list.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/login-2.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  218                          <div class="form-group">
+  219:                             <h3 class="fs-22 pb-3 fw-bold">Log in to TanongmoPH</h3>
+  220                              <div class="divider"><span></span></div>
+
+main-file/login.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  214                          <div class="form-group">
+  215:                             <h3 class="fs-22 pb-3 fw-bold">Log in to TanongmoPH</h3>
+  216                              <div class="divider"><span></span></div>
+
+main-file/notifications.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/package.json:
+   1  {
+   2:   "name": "TanongmoPH",
+   3    "version": "1.0.0",
+
+  10      "type": "git",
+  11:     "url": "git+https://github.com/kamran-hussen/TanongmoPH.git"
+  12    },
+
+  15    "bugs": {
+  16:     "url": "https://github.com/kamran-hussen/TanongmoPH/issues"
+  17    },
+  18:   "homepage": "https://github.com/kamran-hussen/TanongmoPH#readme",
+  19    "devDependencies": {
+
+main-file/pricing-table.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  230          <div class="text-center">
+  231:             <h2 class="section-title pb-3">Unlock siloed knowledge with <br> TanongmoPH for Teams</h2>
+  232              <p class="section-desc w-50 mx-auto pb-4">This is just a simple text made for this unique and awesome template,
+
+  435                      <p class="create-account-text text-end fs-14 pt-1">
+  436:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  437                      </p>
+
+  495                      <p class="create-account-text text-end fs-14">
+  496:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  497                      </p>
+
+main-file/privacy-policy.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  211          <div class="hero-content text-center">
+  212:             <h2 class="section-title pb-3">TanongmoPH - Privacy Policy</h2>
+  213              <ul class="breadcrumb-list">
+
+  395                      <p class="create-account-text text-end fs-14 pt-1">
+  396:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  397                      </p>
+
+  455                      <p class="create-account-text text-end fs-14">
+  456:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  457                      </p>
+
+main-file/question-details.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  353                                                      <span class="text-success-message">Link Copied!</span>
+  354:                                                     <input type="text" class="form-control form--control form-control-sm copy-input" value="https://TanongmoPH.com/q/66552850/15319675">
+  355                                                      <div class="btn-box pt-2 d-flex align-items-center justify-content-between">
+
+  606                                                      <span class="text-success-message">Link Copied!</span>
+  607:                                                     <input type="text" class="form-control form--control form-control-sm copy-input" value="https://TanongmoPH.com/q/66552850/15319675">
+  608                                                      <div class="btn-box pt-2 d-flex align-items-center justify-content-between">
+
+main-file/questions-full-width.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/questions-layout-2.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/questions-left-sidebar.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/questions-right-sidebar.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/recover-password.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/referrals.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  436                                  <div class="input-group">
+  437:                                     <input type="text" class="form-control form--control form--control-bg-gray copy-input" value="https://www.TanongmoPH.com/share/101WxMB0oac1hVQQ==/">
+  438  
+
+  707                          <p class="create-account-text text-end fs-14">
+  708:                             New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  709                          </p>
+
+  761                      <p class="create-account-text text-end fs-14">
+  762:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  763                      </p>
+
+main-file/revisions.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  522          <div class="text-center">
+  523:             <h2 class="section-title">TanongmoPH Q&A communities are different. <br> Here's how</h2>
+  524          </div>
+
+  677                      <p class="create-account-text text-end fs-14 pt-1">
+  678:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  679                      </p>
+
+  737                      <p class="create-account-text text-end fs-14">
+  738:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  739                      </p>
+
+main-file/setting.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  625                                          <div class="input-box">
+  626:                                             <label class="fs-14 text-black lh-20 fw-medium mb-0">The TanongmoPH</label>
+  627                                              <span class="fs-13 d-block lh-18 pb-3">An email rounding up the best news, entertainment, and culture from the world of software development</span>
+
+main-file/signup-2.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  207                      <div class="form-content p-5 h-100 d-flex align-items-center justify-content-center flex-column bg-diagonal-gradient-primary-2 radius-top-left-8 radius-bottom-left-8 text-start">
+  208:                         <h3 class="fs-35 pb-4 fw-bold text-white w-100">Join the TanongmoPH Community</h3>
+  209                          <div class="hero-list w-100">
+
+  235                          <div class="form-group">
+  236:                             <h3 class="fs-22 pb-3 fw-bold">Sign up to TanongmoPH</h3>
+  237                              <div class="divider"><span></span></div>
+
+main-file/signup.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  213                          <div class="form-group">
+  214:                             <h3 class="fs-22 pb-3 fw-bold">Join the TanongmoPH Community</h3>
+  215                              <div class="divider"><span></span></div>
+  216:                             <p class="pt-3">Give us some of your information to get free access to TanongmoPH.</p>
+  217                          </div>
+
+main-file/tags-list.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/talent.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  237                      <div class="info-body">
+  238:                         <p class="fs-18">Million+ visitors a month to <a href="index.html" class="text-color hover-underline">TanongmoPH</a></p>
+  239                      </div>
+
+  266                          <h2 class="section-title pb-3">Build your brand</h2>
+  267:                         <p class="section-desc pb-4">With 13+ years of trust from the tech community, TanongmoPH is the best place to share your company’s story.</p>
+  268                          <a href="#" class="btn theme-btn theme-btn-outline theme-btn-outline-gray">Find out more</a>
+
+  435                      <p class="create-account-text text-end fs-14 pt-1">
+  436:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  437                      </p>
+
+  495                      <p class="create-account-text text-end fs-14">
+  496:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  497                      </p>
+
+main-file/terms-and-conditions.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  245                         <div class="terms-panel mb-30px" id="welcome-to-disku">
+  246:                            <h3 class="fs-20 pb-3 fw-bold">Welcome to TanongmoPH -  Social Questions and Answers HTML Template</h3>
+  247:                            <p class="pb-3 text-black">These terms and conditions outline the rules and regulations for the use of TanongmoPH -  Social Questions and Answers HTML Template</p>
+  248                             <p class="pb-3">Nemo ucxqui officia voluptatem accu santium doloremque laudantium, totam rem ape dicta sunt dose explicabo. Nemo enim ipsam voluptatem quia voluptas. Excepteur sint occaecat cupidatat non proident, sunt in culpa kequi officia deserunt mollit anim id est laborum. </p>
+
+  262                             <ul class="generic-list-item generic-list-item-bullet pb-3">
+  263:                                <li>When you register for a TanongmoPH account we collect your full name, email address, and account log-in credentials.</li>
+  264                                 <li>When you fill-in our online form to contact our sales team, we collect your full name, work email, country, and anything else you tell us about your project, needs and timeline.</li>
+  265:                                <li>When you use the “Remember Me” feature of TanongmoPH Checkout, we collect your email address, payment card number, CVC code and expiration date.</li>
+  266                             </ul>
+  267:                            <p class="pb-3">When you respond to TanongmoPH emails or surveys we collect your email address, name and any other information you choose to include in the body of your email or responses. If you contact us by phone, we will collect the phone number you use to call TanongmoPH. If you contact us by phone as a TanongmoPH User, we may collect additional information in order to verify your identity.</p>
+  268                             <h4 class="fs-16 pb-3">B. Information that we collect automatically on our Sites.</h4>
+
+  276                             <ul class="text-black">
+  277:                                <li>Republish material from https://TanongmoPH.com</li>
+  278:                                <li>Sell, rent or sub-license material from https://TanongmoPH.com</li>
+  279:                                <li>Reproduce, duplicate or copy material from https://TanongmoPH.com</li>
+  280                             </ul>
+
+  283                             <h3 class="fs-20 pb-3 fw-bold">4. Privacy and copyright protection</h3>
+  284:                            <p class="pb-3">TanongmoPH’s privacy policies explain how we treat your personal data and protect your privacy when you use our Services. By using our Services, you agree that TanongmoPH can use such data in accordance with our privacy policies.</p>
+  285                             <p class="pb-3">We respond to notices of alleged copyright infringement and terminate accounts of repeat infringers according to the process set out in the U.S. Digital Millennium Copyright Act.</p>
+  286:                            <p class="pb-3">We provide information to help copyright holders manage their intellectual property online. If you think somebody is violating your copyrights and want to notify us, you can find information about submitting notices and TanongmoPH’s policy about responding to notices in our
+  287                                 <a href="contact.html" class="text-color hover-underline">Help Center</a>.
+
+  430                      <p class="create-account-text text-end fs-14 pt-1">
+  431:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  432                      </p>
+
+  490                      <p class="create-account-text text-end fs-14">
+  491:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  492                      </p>
+
+main-file/user-list.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/user-profile.html:
+  8  
+  9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+  10  
+
+main-file/wishlist.html:
+    8  
+    9:     <title>TanongmoPH -  Social Questions and Answers HTML Template</title>
+   10  
+
+  408                      <p class="create-account-text text-end fs-14 pt-1">
+  409:                         New to TanongmoPH? <a class="signup-btn text-color hover-underline" href="javascript:void(0)">Create account</a>
+  410                      </p>
+
+  468                      <p class="create-account-text text-end fs-14">
+  469:                         Already on TanongmoPH? <a class="login-btn text-color hover-underline" href="javascript:void(0)">Log in</a>
+  470                      </p>
+
+main-file/css/style.css:
+  2  /*
+  3: 	Template Name: TanongmoPH
+  4  	Author: TechyDevs
+
+  6  	Website: techydevs.com
+  7: 	Description: TanongmoPH -  Social Questions and Answers HTML Template
+  8  	Version: 1.0
+
+main-file/doc-file/documentation.html:
+    4      <meta charset="utf-8">
+    5:     <title>Documentation for TanongmoPH -  Social Questions and Answers HTML Template</title>
+    6      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   49              <div class="sec-content">
+   50:                 <h2>TanongmoPH</h2>
+   51                  <h3>- Social Questions and Answers HTML Template</h3>
+
+   54                  <strong class="text-black">Email:</strong> <a href="mailto:contact@techydevs.com">contact@techydevs.com</a>
+   55:                 <p class="pt-3">Thank you for purchasing <strong class="text-black">TanongmoPH</strong>- Social Questions and Answers HTML Template If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form or put a ticket at Support Center. Thank you so much!</p>
+   56                  <p>We continue to add new things to make our template more beautiful and strong every day. You will be free to use all our updates.</p>
+
+   97                      <li>Download the latest template source from ThemeForest.</li>
+   98:                     <li>Extract TanongmoPH downloaded zip file. Extracted zip file will have 2 folders.</li>
+   99:                     <li><strong>TanongmoPH</strong> =&gt; main source files</li>
+  100                      <li><strong>Documentation</strong> =&gt; guide lines</li>
+
+  107                      <li><strong># Note: Windows users do not require the `sudo` keyword</strong></li>
+  108:                     <li>cd / your TanongmoPH folder directory</li>
+  109                      <li>npm install gulp --save-dev</li>
+
+  144                      <li><h3>FTP Upload:</h3></li>
+  145:                     <li>Unzip the downloaded package and open the TanongmoPH/main-file folder to find all the template files. You will need to upload these files to your hosting web server using FTP in order to use it on your own website.</li>
+  146:                     <li>You need to upload all files inside the TanongmoPH/main-file folder to your website root.</li>
+  147:                     <li><strong>TanongmoPH/css</strong> css files</li>
+  148:                     <li><strong>TanongmoPH/fonts</strong> Icon, fonts files</li>
+  149:                     <li><strong>TanongmoPH/images</strong> images files</li>
+  150:                     <li><strong>TanongmoPH/js</strong> Javascript files</li>
+  151:                     <li><strong>TanongmoPH/php</strong> PHP files</li>
+  152:                     <li><strong>TanongmoPH/sass</strong> scss files</li>
+  153                      <li>You are now good... Start adding your content/images generate your beautiful brand new website for your awesome users.</li>
+
+  256                  <h3 class="content-title">Font</h3>
+  257:                 <p>TanongmoPH template used 1 font from <a href="https://fonts.google.com/">google fonts</a> library or you can change the font from google fonts library</p>
+  258                  <p>This is an example of how to include font link into the templates on top of the document.</p>
+
+main-file/js/main.js:
+  1  /*---------------------------------------------
+  2: Template name:  TanongmoPH -  Social Questions and Answers HTML Template
+  3  Author:         TechyDevs
+
+main-file/sass/style.scss:
+  1  /*
+  2: 	Template Name: TanongmoPH
+  3  	Author: TechyDevs
+
+  5  	Website: techydevs.com
+  6: 	Description: TanongmoPH -  Social Questions and Answers HTML Template
+  7  	Version: 1.0

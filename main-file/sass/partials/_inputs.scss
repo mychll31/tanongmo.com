@@ -1,0 +1,45 @@
+.form-check{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  &-label{
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.3;
+  }
+}
+.form-group{
+  margin-bottom: 16px;
+}
+
+.input-group-text{
+  .theme-btn{
+    margin: -12px;
+    border-radius: 0;
+  }
+}
+.input-group-button{
+  cursor: pointer;
+}
+.form-group,
+.input-box{
+  label{
+    margin-bottom: 8px;
+  }
+  .form-check-label{
+    margin-bottom: 0;
+  }
+}
+.input-group-append{
+  .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 100%;
+  }
+}
+.select-box-group{
+  display: flex;
+  label{
+    flex-shrink: 0;
+  }
+}
